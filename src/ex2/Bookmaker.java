@@ -25,7 +25,7 @@ public class Bookmaker {
 
 //////////////////////////////////////////////////////////////////
         for (int i = 0; i < horses.length; i++){
-            System.out.println(horses[i].speed);
+            System.out.println("Номер лошади: " + (horses[i].numberHorse +1) + " || Cкорость в забеге: "  + horses[i].speed);
 
         }
 ////////////////////////////////////////////////////////////////////
